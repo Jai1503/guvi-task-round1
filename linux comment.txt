@@ -1,0 +1,47 @@
+Linux commands
+
+sudo su - switch to superuser
+cd - change directory -
+cd .. - parent , one folder up - 
+cd ../.. - parent , two folder up - 
+pwd - present working directory -
+ls - list the files -
+ls -l - long list all the files -
+ls -a - list the hidden files -
+cat > file1 - create and write in file -
+cat file1 - view the file -
+tac file1 - view file in reverse  -
+less file1 - list less in long file - 
+head file1 - list head in long file - 
+tail file1 - list the bottom in long file -
+cat file1 file2 > file3 - concardinate two empty files -
+touch file11 - create empty file -
+cat >> file11 - write in an empty file - 
+touch file1 file2 file3 - create multiple empty files given -
+touch file{1:10} - create files from 1 to 10 -
+vi file1 - file editor -
+i - insert
+esc :wq - exit and save file
+esc :q - exit and without saving -
+cp source destination -copy - 
+mv source destination - move/rename - 
+touch .newfile.txt - create hidden file -
+rm -rf filename -remove file without confirmation 
+rm -rf dir1 - removes directory without confirmation 
+rm filename -remove file with confirmation
+rmdir dir1 - remove directory if empty
+rmdir -pv dir1 - force delete - try with file permissions
+rmdir -p dir1/dir22 -deletes only if parent and its sub directory
+ls | head - 
+ls | head -5 - shows first 5 
+ls -a | head -5 - shows first 5(inclusive of hidden )
+history - shows all the previous command typed
+grep -filter command
+useradd user_name - to create new user
+cat /etc/passwd - to view the user / group created
+groupadd group_name - to add group
+man (code) - to show avaliable option of code
+chmod  - to change permission
+
+
+
