@@ -1,0 +1,12 @@
+sudo su
+useradd guviuser
+useradd zenuser
+cat /etc/passwd 
+ls -l
+mkdir file{1..10}
+touch doc{1..10}.txt
+chown guviuser file{1..5} doc{1..5}.txt
+chown zenuser file{6..10} doc{6..10}.txt
+chmod 777 file{1..5} doc{1..5}.txt
+chmod 400 file{6..10} doc{6..10}.txt
+ls -l
